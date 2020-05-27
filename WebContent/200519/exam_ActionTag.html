@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>exam_ActionTag</title>
+<style type="text/css">
+h3 {
+	background-color: yellow;
+}
+</style>
+</head>
+<body>
+	<table border="1" align="center">
+		<tr>
+			<td colspan="2">
+				<h3 align="center">학생정보</h3>
+			</td>
+		</tr>
+		<form action="exam_ActionTag.jsp" method="post">
+			<tr>
+				<td align="center">학생 아이디</td>
+				<td><input type="text" name="id"></td>
+			</tr>
+			<tr>
+				<td align="center">학생 이름</td>
+				<td><input type="text" name="name"></td>
+			</tr>
+			<tr>
+				<td align="center">학생 번호</td>
+				<td><input type="text" name="number"></td>
+			</tr>
+			<tr>
+				<td align="center">태어난 해</td>
+				<td align="center"><select name="birth">
+						<option value="1991">1991</option>
+						<option value="1992">1992</option>
+						<option value="1993">1993</option>
+						<option value="1994">1994</option>
+				</select></td>
+			</tr>
+			<tr>
+				<td align="center">암호</td>
+				<td><input type="password" name="pw"></td>
+			</tr>
+			<tr>
+				<td align="center">전자 메일</td>
+				<td><input type="email" name="email"></td>
+			</tr>
+			<tr>
+				<td colspan="2" align="center"><input type="submit"
+					value="입력완료"> <input type="reset" value="다시쓰기"></td>
+			</tr>
+		</form>
+	</table>
+</body>
+</html>

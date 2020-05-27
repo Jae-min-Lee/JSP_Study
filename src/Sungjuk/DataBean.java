@@ -1,0 +1,41 @@
+package Sungjuk;
+
+public class DataBean {
+String name;
+private int kor;
+private int eng;
+private int mat;
+int jumsu;
+
+public int getJumsu() {
+	return jumsu;
+}
+public void setJumsu(int jumsu) {
+	this.jumsu = jumsu;
+}
+public String getName() {
+	return name;
+}
+public void setName(String name) {
+	this.name = name;
+}
+public int getKor() {
+	return kor;
+}
+public void setKor(int kor) {
+	this.kor = kor;
+}
+public int getEng() {
+	return eng;
+}
+public void setEng(int eng) {
+	this.eng = eng;
+}
+public int getMat() {
+	return mat;
+}
+public void setMat(int mat) {
+	this.mat = mat;
+}
+
+}
